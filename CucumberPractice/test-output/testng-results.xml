@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-14T17:49:21 IST" name="Default suite" finished-at="2025-05-14T17:49:34 IST" duration-ms="12724">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:loginDefinitions.TestRunner@61c4eee0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-05-14T17:49:21 IST" name="Default test" finished-at="2025-05-14T17:49:34 IST" duration-ms="12724">
+      <class name="loginDefinitions.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:loginDefinitions.TestRunner@61c4eee0]" started-at="2025-05-14T17:49:21 IST" name="setUpClass" finished-at="2025-05-14T17:49:21 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:loginDefinitions.TestRunner@61c4eee0]" started-at="2025-05-14T17:49:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-14T17:49:34 IST" duration-ms="12386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Have to check if login is sucessful with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To test Login Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:loginDefinitions.TestRunner@61c4eee0]" started-at="2025-05-14T17:49:34 IST" name="tearDownClass" finished-at="2025-05-14T17:49:34 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- loginDefinitions.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
